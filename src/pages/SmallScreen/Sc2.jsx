@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import myimg from "../../assets/myimg.jpg";
+import myimg from "../../assets/MyImg.jpg";
 import myimg2 from "../../assets/backimg1.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import ParticleBackground from "../../Components/ParticleBackground";
