@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import gopal from "../assets/gopal1.png";
 import bg1 from "../assets/bg1.jpg";
 import bg2 from "../assets/bg2.jpg";
-import Tilttext from "../Components/Tilttext.jsx";
+import Tilttext from "../Components/TiltText.jsx";
 
 import Page1Bottom from "../Components/Page1Bottom";
 import { RiCodeSSlashLine } from "react-icons/ri";
