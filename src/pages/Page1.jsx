@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import gopal from "../assets/gopal1.png";
 import bg1 from "../assets/bg1.jpg";
 import bg2 from "../assets/bg2.jpg";
-import Tilttext from "../Components/TiltText";
+import Tilttext from "../Components/Tilttext";
 import Page1Bottom from "../Components/Page1Bottom";
 import { RiCodeSSlashLine } from "react-icons/ri";
 import { useGSAP } from "@gsap/react";
@@ -33,7 +33,7 @@ const [yVal,setYVal]=useState(0)
   return ( 
     <div id="page1" onMouseMove={(e)=>{
       MouseMoving(e)
-    }} className="h-screen relative px-8 py-8 bg-white ">
+    }} className="lg:h-screen  relative px-8 py-8 bg-white ">
                
       <div id="page1-in" className="relative h-full sm:p-11 w-full rounded-4xl bg-gradient-to-r from-black to-white   shadow-2xl transition-transform duration-300 shadow-gray-500">
 

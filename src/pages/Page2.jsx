@@ -34,19 +34,19 @@ useGSAP(function(){
     <div id='section2' className=' bg-white text-center p-1 text-black'>
     
       <div  className='rotateText mt-17'>
-        <h1 className='overflow-hidden text-[55vw] font-[600] text-black font-[anzo2] uppercase leading-[50vw]'> WHERE</h1>
+        <h1 className='overflow-hidden text-[55vw]  text-black font-[anzo2] uppercase leading-[50vw]'> WHERE</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='overflow-hidden text-[42vw] font-[600] text-black font-[anzo2] uppercase leading-[35vw]'> CREATIVITY</h1>
+        <h1 className='overflow-hidden text-[42vw]  text-black font-[anzo2] uppercase leading-[35vw]'> CREATIVITY</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='overflow-hidden text-[55vw] font-[600] text-black font-[anzo2] uppercase leading-[49vw]'> MEETS</h1>
+        <h1 className='overflow-hidden text-[55vw]  text-black font-[anzo2] uppercase leading-[49vw]'> MEETS</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='overflow-hidden text-[55vw] font-[600] text-black font-[anzo2] uppercase leading-[45vw]'> CLEAN</h1>
+        <h1 className='overflow-hidden text-[55vw]  text-black font-[anzo2] uppercase leading-[45vw]'> CLEAN</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='overflow-hidden text-[55vw] font-[600] text-black font-[anzo2] uppercase leading-[45vw]'> CODE</h1>
+        <h1 className='overflow-hidden text-[55vw]  text-black font-[anzo2] uppercase leading-[45vw]'> CODE</h1>
       </div>
       <div className='flex mx-auto items-center text-black justify-center w-wra gap-3 p-4 '>
 

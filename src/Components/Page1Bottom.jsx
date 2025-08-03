@@ -3,7 +3,7 @@ import Logo from "../assets/MyLogo1.png";
 import { useGSAP } from "@gsap/react";
 import { ImGithub } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
-
+import { FaEye } from "react-icons/fa";
 import gsap from "gsap";
 const Page1Bottom = () => {
   useGSAP(function () {
@@ -18,7 +18,7 @@ const Page1Bottom = () => {
     <div className="absolute  bottom-10 P-32 flex items-end justify-between  w-[90vw] ">
       <div className="">
         <h2 className="font-[anzo4]">
-          WEBSITE | DIGITAL DESIGN | WEBAPPLICATION{" "}
+          WEBSITE | DIGITAL DESIGN | WEBAPPLICATION | Front-End
         </h2>
         <h3 className=" text-gray-300">GOPAL KOLI</h3>
       </div>
@@ -26,6 +26,13 @@ const Page1Bottom = () => {
       <div id="banner">
         <div className="classname  text-black justify-end  h-70 w-20 mb-10 ml-30  ">
          <p className="font-[anzo1] "> EXPLORE </p>
+          <a
+              href="https://docs.google.com/document/d/1lfPJRqAciWAXLqCZG9ijvcMJE4fD3SYP/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+               <FaEye className="text-[35px] hover:scale-120 text-black m-5 mt-3 ml-5" />
+            </a>
         
             <a
               href="https://github.com/Gopal-Koli"
