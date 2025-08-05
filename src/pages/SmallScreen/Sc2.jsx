@@ -31,8 +31,10 @@ const Sc2 = () => {
               words={[
                 "Web Development",
                 
-                "Frontend Development",
-                "Digital Banner Designing ",
+                "FRONTEND DEVELOPER",
+                "UI/UX DESIGN ",
+                "SQL DEVELOPER",
+                "LINUX SHELL SCRIPTING"
               ]}
               loop={true}
               cursor

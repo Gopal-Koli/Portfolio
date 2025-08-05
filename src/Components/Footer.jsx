@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-sky-400 mb-2">Contact</h2>
           <p className="flex items-center gap-2">
-            <HiOutlineMail className="text-sky-400" /> gopalkoli@gmail.com
+            <HiOutlineMail className="text-sky-400" /> gopalkoli4430@gmail.com
           </p>
           <p className="flex items-center gap-2">
             <FiPhone className="text-sky-400" /> +91 8433564084

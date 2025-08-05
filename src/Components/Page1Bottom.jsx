@@ -18,7 +18,7 @@ const Page1Bottom = () => {
     <div className="absolute  bottom-10 P-32 flex items-end justify-between  w-[90vw] ">
       <div className="">
         <h2 className="font-[anzo4]">
-          WEBSITE | DIGITAL DESIGN | WEBAPPLICATION | Front-End
+          WEBSITE | UI/UX DESIGN | FRONTEND DEVELOPER | LINUX
         </h2>
         <h3 className=" text-gray-300">GOPAL KOLI</h3>
       </div>
