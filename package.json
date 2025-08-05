@@ -16,6 +16,7 @@
     "@mui/icons-material": "^7.1.2",
     "@mui/material": "^7.1.2",
     "@tailwindcss/vite": "^4.1.7",
+    "emailjs-com": "^3.2.0",
     "gsap": "^3.13.0",
     "motion": "^12.15.0",
     "particles.js": "^2.0.0",

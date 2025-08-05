@@ -6,9 +6,17 @@ import {
   TextField,
   Button
 } from '@mui/material';
+import emailjs from 'emailjs-com';
 
 const HireMeMenu = () => {
   const [anchorEl, setAnchorEl] = useState(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    contact: "",
+    message: ""
+  });
+
   const open = Boolean(anchorEl);
 
   const handleClick = (event) => {
@@ -19,8 +27,34 @@ const HireMeMenu = () => {
     setAnchorEl(null);
   };
 
+  // Form change handler
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Form submit handler
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  emailjs.send(
+    "service_hxe623a",       // Service ID
+    "template_w725z3j",       // Template ID
+    formData,
+    "1lO8q79MozuAWZboB"        // Public Key from EmailJS
+  )
+  .then(() => {
+    alert(" Thank you! I will contact you soon.");
+    setFormData({ name: "", email: "", contact: "", message: "" });
+    handleClose();
+  })
+  .catch((error) => {
+    console.error("Email send failed:", error);
+    alert(" Something went wrong. Please try again!");
+  });
+};
+
   return (
-    <div className="]">
+    <div>
       {/* Hire Me Button */}
       <button
         className="px-6 sm:px-6 sm:py-3 lg:text-sm sm:text-base py-3 border-2 border-white text-[9px] hover:bg-gray-400 hover:text-black rounded-full bg-black shadow-lg shadow-gray-500 cursor-pointer"
@@ -28,8 +62,6 @@ const HireMeMenu = () => {
       >
         Hire me
       </button>
-
-   
 
       {/* MUI Menu for form */}
       <Menu
@@ -55,13 +87,7 @@ const HireMeMenu = () => {
           Hire Me
         </Typography>
 
-        <form
-          action="https://formsubmit.co/gopalkoli2715@gmail.com"
-          method="POST"
-        >
-          <input type="hidden" name="_subject" value="New Hire Me Request" />
-          <input type="hidden" name="_captcha" value="false" />
-
+        <form onSubmit={handleSubmit}>
           {/* Name */}
           <TextField
             name="name"
@@ -70,12 +96,11 @@ const HireMeMenu = () => {
             size="small"
             required
             margin="dense"
+            value={formData.name}
+            onChange={handleChange}
             variant="outlined"
             InputProps={{
-              sx: {
-                backgroundColor: 'white',
-                color: 'black',
-              },
+              sx: { backgroundColor: 'white', color: 'black' },
             }}
           />
 
@@ -88,12 +113,11 @@ const HireMeMenu = () => {
             required
             margin="dense"
             type="email"
+            value={formData.email}
+            onChange={handleChange}
             variant="outlined"
             InputProps={{
-              sx: {
-                backgroundColor: 'white',
-                color: 'black',
-              },
+              sx: { backgroundColor: 'white', color: 'black' },
             }}
           />
 
@@ -106,12 +130,11 @@ const HireMeMenu = () => {
             size="small"
             required
             margin="dense"
+            value={formData.contact}
+            onChange={handleChange}
             variant="outlined"
             InputProps={{
-              sx: {
-                backgroundColor: 'white',
-                color: 'black',
-              },
+              sx: { backgroundColor: 'white', color: 'black' },
             }}
           />
 
@@ -125,12 +148,11 @@ const HireMeMenu = () => {
             margin="dense"
             multiline
             rows={3}
+            value={formData.message}
+            onChange={handleChange}
             variant="outlined"
             InputProps={{
-              sx: {
-                backgroundColor: 'white',
-                color: 'black',
-              },
+              sx: { backgroundColor: 'white', color: 'black' },
             }}
           />
 
@@ -142,9 +164,7 @@ const HireMeMenu = () => {
               mt: 2,
               backgroundColor: 'white',
               color: 'black',
-              '&:hover': {
-                backgroundColor: '#f0f0f0',
-              }
+              '&:hover': { backgroundColor: '#f0f0f0' },
             }}
           >
             Submit
@@ -156,3 +176,4 @@ const HireMeMenu = () => {
 };
 
 export default HireMeMenu;
+    
