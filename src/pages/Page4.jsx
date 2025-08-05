@@ -39,8 +39,8 @@ const Page4 = () => {
           Hi, I’m Gopal Koli. I have completed my B.Sc. in Computer Science from
           Model College of Dombivli, University of Mumbai, with a CGPI of 8.44 In The Year Of 2025.
           I am passionate about learning new technologies and building creative
-          digital solutions. I enjoy designing, exploring software development,
-          and continuously improving my skills.
+          digital solutions
+          continuously improving my skills.
         </motion.p>
       </div>
 

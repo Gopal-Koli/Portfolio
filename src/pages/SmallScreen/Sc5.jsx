@@ -1,6 +1,7 @@
 import React from "react";
 import ParticleBackground from "../../Components/ParticleBackground";
 import ProfilePicture1 from "../../assets/ProfilePicture1.jpg"
+import HireMeMenu from "../../Components/HireMeMenu";
 const Sc5 = () => {
   return (
     <>
@@ -21,8 +22,7 @@ const Sc5 = () => {
          Hi, I’m Gopal Koli. I have completed my B.Sc. in Computer Science from
           Model College of Dombivli, University of Mumbai, with a CGPI of 8.44 In The Year Of 2025.
           I am passionate about learning new technologies and building creative
-          digital solutions. I enjoy designing, exploring software development,
-          and continuously improving my skills.
+          digital solutions and continuously improving my skills.
       </p>
 
       {/* Skills Section */}
@@ -49,7 +49,7 @@ const Sc5 = () => {
       {/* Resume & Contact Buttons */}
       <div className="flex gap-4 mt-3">
         <a
-          href="https://drive.google.com/drive/u/0/folders/1lKxA7Ra3sId8UXZevAz13Bhbmp3nB0dL"
+          href="https://drive.google.com/file/d/1HOKnZ4gG6rbIVRzk2hnVqFPV1OmUAtoi/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 bg-white text-black font-semibold rounded-full shadow hover:bg-gray-300 transition"
@@ -57,7 +57,7 @@ const Sc5 = () => {
           View Resume
         </a>
         <a
-          href="#contact"
+          href="tel:+91 8433564084"
           className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-full shadow hover:bg-blue-600 transition"
         >
           Contact Me
