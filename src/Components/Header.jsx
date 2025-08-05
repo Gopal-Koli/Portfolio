@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CgMenuGridO } from "react-icons/cg";
 import { Menu, TextField, Typography, Button } from '@mui/material';
-
+import HireMeMenu from './HireMeMenu';
 const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -17,13 +17,7 @@ const Header = () => {
   return (
     <div className='fixed lg:w-full flex w-md items-center justify-end z-10 lg:p-20 p-4'>
       
-      {/* Your original button */}
-      <button
-        className='px-6 sm:px-6 sm:py-3 lg:text-sm sm:text-base py-3 border-2 border-white text-[9px] hover:bg-gray-400 hover:text-black rounded-full bg-black shadow-lg shadow-gray-500 cursor-pointer'
-        onClick={handleClick}
-      >
-        Hire me
-      </button>
+     <HireMeMenu/>
 
       <CgMenuGridO className="text-black text-3xl ml-3" />
 

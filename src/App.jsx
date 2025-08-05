@@ -9,9 +9,10 @@ import './index.css'
 import Sc1 from '../src/pages/SmallScreen/Sc1'
 import Sc2 from './pages/SmallScreen/Sc2'
 import Sc3 from './pages/SmallScreen/Sc3'
-import Sc4 from './pages/Sc4'
+import Sc5 from './pages/SmallScreen/Sc5'
 import ProjectsContainer from './Components/ProjectsContainer'
 import Footer from './Components/Footer'
+
 const App = () => {
   return (
     <>
@@ -27,8 +28,11 @@ const App = () => {
     <div className=' '>
       <Sc1/>
       <Sc2/>
+      
       <Sc3/>
+      <Sc5/>
       <ProjectsContainer/>
+     
       <Footer/>
   
     </div>

@@ -26,7 +26,7 @@ const Page4 = () => {
           viewport={{ once: true, amount: 0.5 }}
           className="text-white font-[anzo5] text-[6vw] font-extrabold absolute uppercase top-10 left-10 p-2 z-10"
         >
-         ABOUT
+          ABOUT
         </motion.h1>
         <motion.p
           initial={{ x: 1000, opacity: 0 }}
@@ -36,12 +36,13 @@ const Page4 = () => {
           className="text-white font-[anzo1] w-[400px] cursor-pointer   absolute text-[19px] top-40 left-10 p-2 pl-4 z-10"
           whileHover={{ x: 1000, duration: 6 }}
         >
-        Hi, I’m Gopal Koli.
-I have completed my B.Sc. in Computer Science from Model College of Dombivli, University of Mumbai, with a CGPI of 8.44. I am passionate about learning new technologies and building creative digital solutions. I enjoy designing, exploring software development, and continuously improving my skills.
-         
+          Hi, I’m Gopal Koli. I have completed my B.Sc. in Computer Science from
+          Model College of Dombivli, University of Mumbai, with a CGPI of 8.44 In The Year Of 2025.
+          I am passionate about learning new technologies and building creative
+          digital solutions. I enjoy designing, exploring software development,
+          and continuously improving my skills.
         </motion.p>
       </div>
-        
 
       {/* <motion.img
         src={gopal}
