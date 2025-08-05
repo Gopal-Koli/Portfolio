@@ -2,6 +2,7 @@ import React from "react";
 import ParticleBackground from "../../Components/ParticleBackground";
 import ProfilePicture1 from "../../assets/ProfilePicture1.jpg"
 import HireMeMenu from "../../Components/HireMeMenu";
+import * as motion from "motion/react-client"
 const Sc5 = () => {
   return (
     <>

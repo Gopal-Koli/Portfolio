@@ -1,7 +1,15 @@
 import React from "react";
 import { FaGithubAlt } from "react-icons/fa";
-
+import * as motion from "motion/react-client"
 const projects = [
+  {
+    title: "MY MUSIC",
+    description:
+      "Music Interface to Listen a song with responsive background change.",
+    githubLink: "https://github.com/Gopal-Koli/CodeSpace_Music_Assesment",
+    liveLink: "https://code-space-music-assesment.vercel.app/",
+  },
+  
   {
     title: "Farmer Buddy Website",
     description: "A platform for farmers to sell directly to customers.",
@@ -14,13 +22,7 @@ const projects = [
     githubLink: "https://github.com/Gopal-Koli/Plant-Disease-AI",
     liveLink: "https://github.com/Gopal-Koli/Plant-Disease-AI ",
   },
-  {
-    title: "MY MUSIC",
-    description:
-      "Music Interface to Listen a song with responsive background change.",
-    githubLink: "https://github.com/Gopal-Koli/CodeSpace_Music_Assesment",
-    liveLink: "https://code-space-music-assesment.vercel.app/",
-  },
+  
   {
     title: "Healthcare Dashboard",
     description: "ONGOING ",
@@ -30,6 +32,11 @@ const projects = [
 ];
 
 const ProjectsContainer = () => {
+  const box = {
+   
+    backgroundColor: "#9911ff",
+    borderRadius: 4,
+}
   return (
     <>
       <h1 className="text-4xl sm:text-6xl md:text-8xl text-black font-[anzo6] text-center mt-4">
@@ -38,7 +45,11 @@ const ProjectsContainer = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6">
         {projects.map((project, index) => (
-          <div
+           <motion.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.8 }}
+           
+      
             key={index}
             className="bg-white border border-gray-200 rounded-xl p-6 min-h-[220px]
                      shadow-md hover:scale-105 hover:shadow-xl 
@@ -74,7 +85,7 @@ const ProjectsContainer = () => {
                 </a>
               )}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </>
