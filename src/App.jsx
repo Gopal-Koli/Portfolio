@@ -12,7 +12,7 @@ import Sc3 from './pages/SmallScreen/Sc3'
 import Sc5 from './pages/SmallScreen/Sc5'
 import ProjectsContainer from './Components/ProjectsContainer'
 import Footer from './Components/Footer'
-
+import SkillsStrip from './Components/SkillsStrip'
 const App = () => {
   return (
     <>
@@ -31,6 +31,7 @@ const App = () => {
       
       <Sc3/>
       <Sc5/>
+       <SkillsStrip />
       <ProjectsContainer/>
      
       <Footer/>

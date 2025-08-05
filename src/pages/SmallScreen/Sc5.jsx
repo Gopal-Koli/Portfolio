@@ -4,7 +4,7 @@ import ProfilePicture1 from "../../assets/ProfilePicture1.jpg"
 const Sc5 = () => {
   return (
     <>
-    <div className="lg:hidden flex flex-col items-center justify-center text-center Z-10 p-6 bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white min-h-screen">
+    <div className="lg:hidden flex flex-col items-center justify-center mb-5 text-center Z-10 p-6 bg-gradient-to-b from-black via-gray-500 to-gray-700 text-white min-h-screen">
       {/* Profile Image */}
       
       <img
@@ -49,7 +49,7 @@ const Sc5 = () => {
       {/* Resume & Contact Buttons */}
       <div className="flex gap-4 mt-3">
         <a
-          href="https://docs.google.com/document/d/1lfPJRqAciWAXLqCZG9ijvcMJE4fD3SYP/edit"
+          href="https://drive.google.com/drive/u/0/folders/1lKxA7Ra3sId8UXZevAz13Bhbmp3nB0dL"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 bg-white text-black font-semibold rounded-full shadow hover:bg-gray-300 transition"

@@ -41,7 +41,7 @@ const Sc1 = () => {
           <p className="font-[anzo1] text-black mb-3">EXPLORE</p>
 
           <a
-            href="https://docs.google.com/document/d/1lfPJRqAciWAXLqCZG9ijvcMJE4fD3SYP/edit"
+            href="https://drive.google.com/drive/u/0/folders/1lKxA7Ra3sId8UXZevAz13Bhbmp3nB0dL"
             target="_blank"
             rel="noopener noreferrer"
           >
